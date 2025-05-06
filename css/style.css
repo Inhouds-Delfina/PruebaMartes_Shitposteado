@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body
+{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 0 0 2px white;
+    background: linear-gradient(to bottom, #a91d1d, #230000);
+    background-image: url(https://i.scdn.co/image/ab67616d00001e029c198a19d1804ba3e42c47a2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 0 0 2px white;
+}
+
+.grid
+{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.tarjeta
+{
+    color: aliceblue;
+    display: flex;
+    padding: 1em;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.15); /* 0.3 es el nivel de opacidad */
+    border-radius: 15px;
+}
+
+a
+{
+    color: white;
+}
